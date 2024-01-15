@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    &__right--list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        
+        gap: 20px;
+        
+        a {
+            text-decoration: none;
+            
+        }
+
+        a:visited {
+            color: aliceblue;
+        }
+    }
+}
